@@ -14,7 +14,7 @@ namespace Repositorio.FactoryConnection
 {
     public class FluentSessionFactory
     {
-        private static string ConnectionString="Server=localhost; Port=3306; User Id=root; Password=ctc13121986; Database=dbnhibernate";
+        private static string ConnectionString="Server=localhost; Port=3306; User Id=root; Password=++++++++++; Database=dbnhibernate";
         private static ISessionFactory session;
         public static ISessionFactory CreateSession()
         {
